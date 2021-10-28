@@ -1,8 +1,11 @@
-name: ExamplePlugin
+name: VanishTest
 api-version: 1.17
 authors:
-  - You
-main: org.example.exampleplugin.ExamplePlugin
-version: 1.0.0
+  - DQMME
+main: de.dqmme.vanishtest.VanishTest
+version: 1.0
 libraries:
   - "net.axay:kspigot:1.17.4"
+commands:
+  hide:
+    permission: hide.hide
